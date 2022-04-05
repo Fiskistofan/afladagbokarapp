@@ -1,0 +1,44 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="34dp"
+    android:height="34dp"
+    android:viewportWidth="34"
+    android:viewportHeight="34">
+  <path
+      android:pathData="M16.5833,2.4167L16.5833,30.1667"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#5C95E4"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M28.3333,25.6667C28.3333,27.9218 26.4305,29.75 24.0833,29.75C21.736,29.75 19.8333,27.9218 19.8333,25.6667V19.8333"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#C2C2C2"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M5.6667,11.5C5.6667,13.7552 7.5695,15.5833 9.9167,15.5833C12.264,15.5833 14.1667,13.7552 14.1667,11.5V5.6667"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#C2C2C2"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M29.7499,19.8333V25.5H24.0833L29.7499,19.8333Z"
+      android:fillColor="#C4C4C4"/>
+  <path
+      android:pathData="M4.2501,5.6667V11.3333H9.9167L4.2501,5.6667Z"
+      android:fillColor="#C4C4C4"/>
+</vector>

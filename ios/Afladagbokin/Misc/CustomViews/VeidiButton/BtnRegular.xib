@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BtnRegular" customModule="Afladagbokin" customModuleProvider="target">
+            <connections>
+                <outlet property="cImgHeight" destination="3HA-oP-nLC" id="wJ8-M7-jTE"/>
+                <outlet property="cImgWidth" destination="mCT-Ie-r32" id="JgD-DW-AnZ"/>
+                <outlet property="cLblToImg" destination="l9A-La-sVJ" id="4fL-1w-m4h"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="0cb-dx-RDt"/>
+                <outlet property="imgFromTop" destination="3xO-ET-msW" id="SPR-WL-G6d"/>
+                <outlet property="imgView" destination="ETa-5W-u8f" id="oIM-3v-Yx8"/>
+                <outlet property="lblTitle" destination="cVu-tL-MIY" id="wYt-qY-c9Z"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="123" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ETa-5W-u8f">
+                    <rect key="frame" x="44" y="10" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="3HA-oP-nLC"/>
+                        <constraint firstAttribute="width" constant="34" id="mCT-Ie-r32"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veiði" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVu-tL-MIY">
+                    <rect key="frame" x="42.5" y="59" width="37" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ETa-5W-u8f" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="3xO-ET-msW"/>
+                <constraint firstItem="cVu-tL-MIY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fEU-Ob-6YC"/>
+                <constraint firstItem="cVu-tL-MIY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="59" id="l9A-La-sVJ"/>
+                <constraint firstItem="ETa-5W-u8f" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="uNR-bg-9im"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-91.5" y="-234"/>
+        </view>
+    </objects>
+</document>

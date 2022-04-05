@@ -1,0 +1,68 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="34dp"
+    android:height="26dp"
+    android:viewportHeight="26.0"
+    android:viewportWidth="34.0">
+    <path
+        android:fillColor="#A7A7A7"
+        android:pathData="M33.452,2.495C32.292,2.495 30.848,1.988 29.318,1.451C27.381,0.771 25.185,0 22.908,0C20.273,0 18.666,1.171 17.782,2.153C17.451,2.52 17.194,2.888 17,3.215C16.806,2.888 16.549,2.52 16.219,2.153C15.334,1.171 13.727,0 11.092,0C8.815,0 6.619,0.771 4.682,1.451C3.152,1.988 1.708,2.495 0.548,2.495C0.245,2.495 0,2.744 0,3.051L0,25.444C0,25.751 0.245,26 0.548,26C1.892,26 3.422,25.463 5.041,24.895C6.896,24.243 8.999,23.505 11.092,23.505C12.886,23.505 14.338,24.107 15.409,25.295C15.613,25.522 15.96,25.538 16.183,25.331C16.407,25.124 16.423,24.772 16.218,24.546C15.334,23.564 13.726,22.393 11.092,22.393C8.815,22.393 6.619,23.164 4.682,23.844C3.385,24.299 2.149,24.733 1.097,24.855L1.097,3.579C2.303,3.463 3.638,2.994 5.041,2.501C6.896,1.85 8.999,1.112 11.092,1.112C15.324,1.112 16.431,4.519 16.476,4.662C16.547,4.896 16.759,5.055 17,5.055C17.241,5.055 17.453,4.896 17.524,4.662C17.535,4.627 18.649,1.112 22.908,1.112C25.001,1.112 27.104,1.85 28.959,2.501C30.362,2.994 31.697,3.463 32.903,3.579L32.903,24.855C31.851,24.733 30.615,24.299 29.318,23.844C27.381,23.164 25.185,22.393 22.908,22.393C20.273,22.393 18.666,23.564 17.782,24.546C17.577,24.773 17.593,25.124 17.817,25.331C18.04,25.538 18.387,25.522 18.591,25.296C19.662,24.108 21.114,23.505 22.908,23.505C25.001,23.505 27.104,24.243 28.959,24.895C30.578,25.463 32.108,26 33.452,26C33.755,26 34,25.751 34,25.444L34,3.051C34,2.744 33.755,2.495 33.452,2.495Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M3.766,7.644C8.041,5.929 11.004,5.357 12.656,5.929"
+        android:strokeColor="#A7A7A7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M3.766,10.644C8.041,8.929 11.004,8.357 12.656,8.929"
+        android:strokeColor="#A7A7A7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M3.766,13.644C8.041,11.929 11.004,11.357 12.656,11.929"
+        android:strokeColor="#A7A7A7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M3.766,16.644C8.041,14.929 11.004,14.357 12.656,14.929"
+        android:strokeColor="#A7A7A7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M3.766,19.644C8.041,17.929 11.004,17.357 12.656,17.929"
+        android:strokeColor="#A7A7A7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#A7A7A7"
+        android:pathData="M25,13m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25.44,13.431L25.402,14.5L25.402,14.5C25.394,14.752 25.182,14.95 24.929,14.941L24.929,14.941L24.929,14.941C24.676,14.932 24.479,14.72 24.488,14.468L24.525,13.399L23.545,13.365L23.545,13.365C23.299,13.356 23.107,13.15 23.116,12.904L23.116,12.904L23.116,12.904C23.124,12.658 23.33,12.466 23.576,12.474L24.556,12.509L24.593,11.457L24.593,11.457C24.601,11.205 24.813,11.007 25.066,11.016L25.066,11.016L25.066,11.016C25.319,11.025 25.516,11.237 25.508,11.489L25.471,12.541L26.45,12.575L26.45,12.575C26.696,12.583 26.889,12.79 26.88,13.036L26.88,13.036L26.88,13.036C26.872,13.282 26.665,13.474 26.419,13.465L25.44,13.431Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+</vector>

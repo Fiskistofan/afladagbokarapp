@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BoatCell" customModule="Afladagbokin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnN-9H-2C1">
+                        <rect key="frame" x="23" y="39.5" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="76f-pb-7bm">
+                        <rect key="frame" x="70" y="39.5" width="190" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apg-Ke-W12">
+                        <rect key="frame" x="275" y="37" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="AAn-X9-XP7"/>
+                            <constraint firstAttribute="width" constant="25" id="dSb-rz-xsJ"/>
+                        </constraints>
+                        <connections>
+                            <action selector="btnCheckClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DvH-hH-yZc"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.96852558851242065" green="0.96868783235549927" blue="0.96850281953811646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="HnN-9H-2C1" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="2OH-3M-kpk"/>
+                    <constraint firstItem="apg-Ke-W12" firstAttribute="leading" secondItem="76f-pb-7bm" secondAttribute="trailing" constant="15" id="HW2-fk-9wb"/>
+                    <constraint firstItem="HnN-9H-2C1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="Iqz-5l-yCI"/>
+                    <constraint firstItem="76f-pb-7bm" firstAttribute="leading" secondItem="HnN-9H-2C1" secondAttribute="trailing" constant="5" id="WOo-7W-nz3"/>
+                    <constraint firstItem="76f-pb-7bm" firstAttribute="centerY" secondItem="HnN-9H-2C1" secondAttribute="centerY" id="aAl-6B-jSA"/>
+                    <constraint firstAttribute="trailing" secondItem="apg-Ke-W12" secondAttribute="trailing" constant="20" id="cLA-Qy-IY9"/>
+                    <constraint firstItem="apg-Ke-W12" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rdN-0g-4I1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnCheck" destination="apg-Ke-W12" id="z7F-AT-S4T"/>
+                <outlet property="lblId" destination="HnN-9H-2C1" id="qqW-GM-HOQ"/>
+                <outlet property="lblName" destination="76f-pb-7bm" id="Wx9-TM-Ih7"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

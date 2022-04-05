@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DragView" customModule="Afladagbokin" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="IOu-4d-3R8"/>
+                <outlet property="lblTitle" destination="rnO-Wa-9Mx" id="oUX-cO-wwD"/>
+                <outlet property="tableView" destination="fma-g2-yRG" id="Ia8-Y8-caA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="ContentView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fma-g2-yRG">
+                    <rect key="frame" x="0.0" y="50" width="375" height="617"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="rnO-Wa-9Mx">
+                    <rect key="frame" x="8" y="0.0" width="359" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="biJ-Hs-ttC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fma-g2-yRG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8BJ-Jj-DUl"/>
+                <constraint firstItem="fma-g2-yRG" firstAttribute="top" secondItem="rnO-Wa-9Mx" secondAttribute="bottom" id="AsG-zP-ijO"/>
+                <constraint firstAttribute="trailing" secondItem="fma-g2-yRG" secondAttribute="trailing" id="QKz-nA-qk3"/>
+                <constraint firstItem="rnO-Wa-9Mx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Ulk-r9-GuK"/>
+                <constraint firstItem="rnO-Wa-9Mx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Vry-60-z57"/>
+                <constraint firstAttribute="trailing" secondItem="rnO-Wa-9Mx" secondAttribute="trailing" constant="8" id="X11-X2-sCf"/>
+                <constraint firstAttribute="bottom" secondItem="fma-g2-yRG" secondAttribute="bottom" id="ifN-Wp-n7R"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

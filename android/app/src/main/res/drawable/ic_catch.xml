@@ -1,0 +1,28 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="87.0"
+    android:viewportWidth="87.0">
+    <path
+        android:fillColor="#4875B3"
+        android:pathData="M43.5,43.5m-43.5,0a43.5,43.5 0,1 1,87 0a43.5,43.5 0,1 1,-87 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45.49,44.99L54.01,44.99L54.01,44.99C55.11,44.99 56,44.09 56,42.99L56,42.99L56,42.99C56,41.89 55.11,41 54.01,41L45.49,41L45.49,31.99L45.49,31.99C45.49,30.89 44.6,30 43.5,30L43.5,30L43.5,30C42.4,30 41.51,30.89 41.51,31.99L41.51,41L32.99,41L32.99,41C31.89,41 31,41.89 31,42.99L31,42.99L31,42.99C31,44.09 31.89,44.99 32.99,44.99L41.51,44.99L41.51,54.26L41.51,54.26C41.51,55.36 42.4,56.25 43.5,56.25L43.5,56.25L43.5,56.25C44.6,56.25 45.49,55.36 45.49,54.26L45.49,44.99Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+</vector>

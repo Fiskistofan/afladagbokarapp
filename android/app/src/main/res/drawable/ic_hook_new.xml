@@ -1,0 +1,58 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="34dp"
+    android:height="34dp"
+    android:viewportWidth="34"
+    android:viewportHeight="34">
+  <path
+      android:pathData="M28.3333,19.8333C28.3333,25.3102 23.8935,29.75 18.4167,29.75C12.9398,29.75 8.5,25.3102 8.5,19.8333V5.6667"
+      android:strokeLineJoin="round"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#C2C2C2"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M7.0833,19.8333C7.0833,22.1805 5.1805,24.0833 2.8333,24.0833"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#5C95E4"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M6.6667,1L6.6667,20.25"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#5C95E4"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M5.5499,7.9429L10.7762,10.0335"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#5C95E4"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M5.5499,12.1929L10.7762,14.2835"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#5C95E4"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M5.5499,16.4429L10.7762,18.5335"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#5C95E4"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M29.7501,12.75V19.8333H22.6667L29.7501,12.75Z"
+      android:fillColor="#C4C4C4"/>
+</vector>

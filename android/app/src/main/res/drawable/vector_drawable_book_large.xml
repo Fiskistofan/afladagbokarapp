@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="138dp"
+    android:height="106dp"
+    android:viewportHeight="106"
+    android:viewportWidth="138">
+    <group
+        android:name="Assets/Icons/Book-Large"
+        android:translateX="0"
+        android:translateY="0">
+        <path
+            android:name="Shape"
+            android:fillColor="#000000"
+            android:fillType="nonZero"
+            android:pathData="M135.774194,10.1711936 C131.068542,10.1711936 125.204877,8.10347 118.996658,5.91455998 C111.134516,3.14208166 102.222684,0 92.9805419,0 C82.2862839,0 75.762,4.77220462 72.1722194,8.77558596 C70.8296129,10.2733408 69.7891226,11.7741177 69.0002968,13.1053545 C68.211471,11.7741177 67.1709806,10.2733408 65.8283742,8.77558596 C62.2382968,4.77220462 55.7143097,0 45.0200516,0 C35.7776129,0 26.8660774,3.14208166 19.0039355,5.91455998 C12.7951226,8.10347 6.93145806,10.1711936 2.22580645,10.1711936 C0.996270968,10.1711936 0,11.185714 0,12.4377717 L0,103.73312 C0,104.985177 0.996270968,105.999698 2.22580645,105.999698 C7.68051613,105.999698 13.8881419,103.810788 20.4599097,101.493438 C27.9905548,98.8382176 36.5260774,95.8285041 45.0194581,95.8285041 C52.3022968,95.8285041 58.1971226,98.284266 62.5404129,103.12749 C63.3690065,104.051649 64.7772,104.116625 65.6850323,103.272551 C66.5928645,102.428477 66.6563742,100.994791 65.8274839,100.070329 C62.2374065,96.0672504 55.7134194,91.2950457 45.0194581,91.2950457 C35.7770194,91.2950457 26.8654839,94.4371274 19.0033419,97.2096057 C13.7400516,99.0660843 8.72397419,100.834317 4.4516129,101.329942 L4.4516129,14.5919276 C9.34571613,14.117155 14.766,12.2056741 20.4599097,10.1980904 C27.9905548,7.54286969 36.5260774,4.53315619 45.0194581,4.53315619 C62.1970452,4.53315619 66.6913935,18.4233512 66.872129,19.0072217 C67.1594065,19.9585801 68.0224258,20.6083325 69,20.6083325 C69.9775742,20.6083325 70.8405935,19.9588823 71.127871,19.0072217 C71.1712,18.8624629 75.6931484,4.53315619 92.9805419,4.53315619 C101.473923,4.53315619 110.009445,7.54286969 117.54009,10.1980904 C123.234297,12.2059764 128.654284,14.117155 133.548387,14.5919276 L133.548387,101.329942 C129.276026,100.834317 124.259948,99.0660843 118.996658,97.2099079 C111.134516,94.4374296 102.222684,91.295348 92.9805419,91.295348 C82.2859871,91.295348 75.7617032,96.0675526 72.1722194,100.070934 C71.343329,100.995698 71.4071355,102.429082 72.314671,103.273155 C73.2228,104.117229 74.6306968,104.052254 75.4592903,103.128094 C79.8025806,98.2845682 85.6974065,95.8288064 92.9805419,95.8288064 C101.473923,95.8288064 110.009445,98.8385199 117.54009,101.493741 C124.112155,103.81109 130.319781,106 135.774194,106 C137.003729,106 138,104.98548 138,103.733422 L138,12.4377717 C138,11.1860162 137.003729,10.1711936 135.774194,10.1711936 Z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1" />
+        <path
+            android:name="Path-6"
+            android:fillColor="#00000000"
+            android:fillType="evenOdd"
+            android:pathData="M15,31 C32.3094024,23.8888889 44.3094024,21.5185185 51,23.8888889"
+            android:strokeColor="#A7A7A7"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="3" />
+        <path
+            android:name="Path-6"
+            android:fillColor="#00000000"
+            android:fillType="evenOdd"
+            android:pathData="M15,44 C32.3094024,36.8888889 44.3094024,34.5185185 51,36.8888889"
+            android:strokeColor="#000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="3" />
+        <path
+            android:name="Path-6"
+            android:fillColor="#00000000"
+            android:fillType="evenOdd"
+            android:pathData="M15,56 C32.3094024,48.8888889 44.3094024,46.5185185 51,48.8888889"
+            android:strokeColor="#A7A7A7"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="3" />
+        <path
+            android:name="Path-6"
+            android:fillColor="#00000000"
+            android:fillType="evenOdd"
+            android:pathData="M15,68 C32.3094024,60.8888889 44.3094024,58.5185185 51,60.8888889"
+            android:strokeColor="#000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="3" />
+        <path
+            android:name="Path-6"
+            android:fillColor="#00000000"
+            android:fillType="evenOdd"
+            android:pathData="M15,80 C32.3094024,72.8888889 44.3094024,70.5185185 51,72.8888889"
+            android:strokeColor="#A7A7A7"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="3" />
+        <path
+            android:name="Oval-2"
+            android:fillColor="#000000"
+            android:fillType="evenOdd"
+            android:pathData="M 101,37 C 109.84,37 117,44.39 117,53.5 C 117,62.61 109.84,70 101,70 C 92.16,70 85,62.61 85,53.5 C 85,44.39 92.16,37 101,37 z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1" />
+        <path
+            android:name="+"
+            android:fillColor="#FFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M103.089873,54.6000198 L102.939874,58.9948062 L102.939874,58.9948062 C102.921035,59.5467695 102.458308,59.9789521 101.906345,59.960113 C101.905813,59.9600948 101.905282,59.9600762 101.90475,59.9600573 L100.741617,59.9185001 L100.741617,59.9185001 C100.190307,59.8988025 99.7590874,59.4363671 99.7779053,58.8850265 L99.9280131,54.4870507 L96.00197,54.3467784 L96.00197,54.3467784 C95.45066,54.3270809 95.0194399,53.8646455 95.0382578,53.3133048 L95.0774998,52.1635643 L95.0774998,52.1635643 C95.0963389,51.6116009 95.5590657,51.1794184 96.1110291,51.1982575 C96.1115606,51.1982757 96.1120922,51.1982942 96.1126237,51.1983132 L100.035478,51.3384716 L100.18337,47.0054221 L100.18337,47.0054221 C100.202209,46.4534587 100.664936,46.0212762 101.216899,46.0401153 C101.21743,46.0401334 101.217962,46.040152 101.218494,46.040171 L102.381626,46.0817282 L102.381626,46.0817282 C102.932936,46.1014258 103.364156,46.5638611 103.345338,47.1152018 L103.197338,51.4514407 L107.123381,51.591713 L107.123381,51.591713 C107.674691,51.6114106 108.105911,52.0738459 108.087093,52.6251866 L108.047851,53.7749271 L108.047851,53.7749271 C108.029012,54.3268905 107.566285,54.759073 107.014322,54.7402339 C107.01379,54.7402158 107.013259,54.7401972 107.012727,54.7401782 L103.089873,54.6000198 Z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1" />
+    </group>
+</vector>

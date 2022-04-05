@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AfliViewController" customModule="Afladagbokin" customModuleProvider="target">
+            <connections>
+                <outlet property="btnAdd" destination="eJm-OW-iBT" id="4BC-lm-w78"/>
+                <outlet property="btnBigAdd" destination="tgV-ZP-Ryf" id="mvr-8a-kCW"/>
+                <outlet property="cBookToTopBar" destination="45V-SP-G4d" id="TSK-6A-6Dg"/>
+                <outlet property="lblClickHere" destination="jtm-wd-Kok" id="038-HQ-oLY"/>
+                <outlet property="lblSkra" destination="v6v-Js-xsC" id="VDw-US-3sJ"/>
+                <outlet property="tableView" destination="9Z6-Vn-4Tm" id="bp2-QU-UpZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewHead" destination="qu9-2a-1mX" id="Sau-Nd-7Ia"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qu9-2a-1mX" customClass="Header" customModule="Afladagbokin" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="78"/>
+                    <color key="backgroundColor" red="0.0008859697846" green="0.31918933989999998" blue="0.49480336899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="78" id="I24-OR-dzH"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Þú hefur ekki skráð afla í dag." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6v-Js-xsC">
+                    <rect key="frame" x="76" y="362" width="223.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smelltu á plúsinn fyrir miðju skjás til að skrá afla." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jtm-wd-Kok">
+                    <rect key="frame" x="75" y="403" width="225" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgV-ZP-Ryf">
+                    <rect key="frame" x="118.5" y="220" width="138" height="106"/>
+                    <state key="normal" image="Book-Large"/>
+                    <connections>
+                        <action selector="btnBigAddClicked:" destination="-1" eventType="touchUpInside" id="9ue-vm-L9P"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9Z6-Vn-4Tm">
+                    <rect key="frame" x="0.0" y="78" width="375" height="589"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJm-OW-iBT" customClass="Button" customModule="Afladagbokin" customModuleProvider="target">
+                    <rect key="frame" x="40" y="490" width="295" height="77"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="77" id="dVQ-Vs-DcU"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eJm-OW-iBT" secondAttribute="bottom" constant="100" id="14H-fU-0fQ"/>
+                <constraint firstAttribute="trailing" secondItem="9Z6-Vn-4Tm" secondAttribute="trailing" id="1A7-AB-Mo6"/>
+                <constraint firstItem="tgV-ZP-Ryf" firstAttribute="top" secondItem="qu9-2a-1mX" secondAttribute="bottom" constant="142" id="45V-SP-G4d"/>
+                <constraint firstAttribute="bottom" secondItem="9Z6-Vn-4Tm" secondAttribute="bottom" id="5OK-An-Ugh"/>
+                <constraint firstItem="9Z6-Vn-4Tm" firstAttribute="top" secondItem="qu9-2a-1mX" secondAttribute="bottom" id="Ad2-WS-hV6"/>
+                <constraint firstItem="qu9-2a-1mX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CBa-a3-bUa"/>
+                <constraint firstItem="eJm-OW-iBT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="E21-Pa-1Wd"/>
+                <constraint firstAttribute="trailing" secondItem="qu9-2a-1mX" secondAttribute="trailing" id="Hsj-lz-dmd"/>
+                <constraint firstItem="jtm-wd-Kok" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="75" id="MNx-mx-m3m"/>
+                <constraint firstItem="eJm-OW-iBT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="MZA-Q1-RP9"/>
+                <constraint firstItem="v6v-Js-xsC" firstAttribute="top" secondItem="tgV-ZP-Ryf" secondAttribute="bottom" constant="36" id="PBA-Rq-JPe"/>
+                <constraint firstItem="jtm-wd-Kok" firstAttribute="top" secondItem="v6v-Js-xsC" secondAttribute="bottom" constant="20" id="Ubr-4C-F3I"/>
+                <constraint firstAttribute="trailing" secondItem="eJm-OW-iBT" secondAttribute="trailing" constant="40" id="YBy-2T-m6A"/>
+                <constraint firstItem="tgV-ZP-Ryf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZYv-i4-pj2"/>
+                <constraint firstItem="v6v-Js-xsC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="nsF-j3-4XV"/>
+                <constraint firstAttribute="trailing" secondItem="jtm-wd-Kok" secondAttribute="trailing" constant="75" id="o3t-xY-etx"/>
+                <constraint firstItem="9Z6-Vn-4Tm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="syI-vh-pyH"/>
+                <constraint firstAttribute="top" secondItem="qu9-2a-1mX" secondAttribute="top" id="ugP-Op-YXT"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Book-Large" width="138" height="106"/>
+    </resources>
+</document>

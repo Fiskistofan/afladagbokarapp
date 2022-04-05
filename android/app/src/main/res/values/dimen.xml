@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="extra_thin_line">1dp</dimen>
+    <dimen name="thin_line">2dp</dimen>
+
+    <!-- Common spaces -->
+    <dimen name="massive_space">32dp</dimen>
+    <dimen name="huge_space">24dp</dimen>
+    <dimen name="big_space">16dp</dimen>
+    <dimen name="regular_space">12dp</dimen>
+    <dimen name="regular_small_space">8dp</dimen>
+    <dimen name="small_space">4dp</dimen>
+    <dimen name="extra_small_space">2dp</dimen>
+    <dimen name="extra_extra_small_space">1dp</dimen>
+
+    <!-- Custom spaces -->
+    <dimen name="big_side_space">100dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="larger_title_text">34sp</dimen>
+    <dimen name="title_text">28sp</dimen>
+    <dimen name="extra_large_text">24sp</dimen>
+    <dimen name="very_larger_text">20sp</dimen>
+    <dimen name="very_large_text">18sp</dimen>
+    <dimen name="larger_text">16sp</dimen>
+    <dimen name="large_text">14sp</dimen>
+    <dimen name="larger_regular_text">12sp</dimen>
+    <dimen name="regular_text">10sp</dimen>
+    <dimen name="small_text">8sp</dimen>
+
+
+    <!-- Overriding Default Bottom Navigation sizes-->
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">14sp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">80dp</dimen>
+
+    <dimen name="design_bottom_tour_height" tools:override="true">90dp</dimen>
+
+    <!-- Custom Ripple View -->
+    <dimen name="ripple_stroke_default_width">2dp</dimen>
+    <dimen name="ripple_default_radius_width">10dp</dimen>
+
+</resources>

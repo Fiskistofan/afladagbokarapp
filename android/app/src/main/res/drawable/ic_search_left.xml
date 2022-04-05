@@ -1,0 +1,27 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M15.7549,14.255H14.9649L14.6849,13.985C15.6649,12.845 16.2549,11.365 16.2549,9.755C16.2549,6.165 13.3449,3.255 9.7549,3.255C6.1649,3.255 3.2549,6.165 3.2549,9.755C3.2549,13.345 6.1649,16.255 9.7549,16.255C11.3649,16.255 12.8449,15.665 13.9849,14.685L14.2549,14.965V15.755L19.2549,20.745L20.7449,19.255L15.7549,14.255ZM9.7549,14.255C7.2649,14.255 5.2549,12.245 5.2549,9.755C5.2549,7.265 7.2649,5.255 9.7549,5.255C12.2449,5.255 14.2549,7.265 14.2549,9.755C14.2549,12.245 12.2449,14.255 9.7549,14.255Z"
+      android:fillColor="#959595"
+      android:fillType="evenOdd"/>
+  <group>
+    <clip-path
+        android:pathData="M15.7549,14.255H14.9649L14.6849,13.985C15.6649,12.845 16.2549,11.365 16.2549,9.755C16.2549,6.165 13.3449,3.255 9.7549,3.255C6.1649,3.255 3.2549,6.165 3.2549,9.755C3.2549,13.345 6.1649,16.255 9.7549,16.255C11.3649,16.255 12.8449,15.665 13.9849,14.685L14.2549,14.965V15.755L19.2549,20.745L20.7449,19.255L15.7549,14.255ZM9.7549,14.255C7.2649,14.255 5.2549,12.245 5.2549,9.755C5.2549,7.265 7.2649,5.255 9.7549,5.255C12.2449,5.255 14.2549,7.265 14.2549,9.755C14.2549,12.245 12.2449,14.255 9.7549,14.255Z"
+        android:fillType="evenOdd"/>
+  </group>
+</vector>

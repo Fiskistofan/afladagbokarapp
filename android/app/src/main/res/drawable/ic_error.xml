@@ -1,0 +1,24 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="28.0"
+    android:viewportWidth="28.0">
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M13.953,0C6.247,0 0,6.247 0,13.953C0,21.659 6.247,27.907 13.953,27.907C21.659,27.907 27.907,21.659 27.907,13.953C27.907,6.247 21.659,0 13.953,0ZM19.217,19.272C18.66,19.828 17.757,19.828 17.201,19.272L14.026,16.097L10.706,19.416C10.149,19.973 9.247,19.973 8.69,19.416C8.133,18.859 8.133,17.957 8.69,17.4L12.009,14.08L8.919,10.99C8.362,10.432 8.362,9.53 8.919,8.973C9.476,8.416 10.379,8.416 10.935,8.973L14.026,12.064L16.972,9.117C17.529,8.561 18.432,8.56 18.988,9.117C19.545,9.675 19.545,10.577 18.988,11.134L16.042,14.08L19.217,17.255C19.774,17.812 19.774,18.715 19.217,19.272Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+</vector>

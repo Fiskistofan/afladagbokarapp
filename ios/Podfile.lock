@@ -1,0 +1,133 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - Bond (6.5.2):
+    - Differ (~> 1.0)
+    - ReactiveKit (~> 3.8)
+  - Differ (1.0.3)
+  - Firebase/Auth (4.7.0):
+    - Firebase/Core
+    - FirebaseAuth (= 4.4.0)
+  - Firebase/Core (4.7.0):
+    - FirebaseAnalytics (= 4.0.5)
+    - FirebaseCore (= 4.0.12)
+  - FirebaseAnalytics (4.0.5):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.4.0):
+    - FirebaseAnalytics (~> 4.0)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.12):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (2.0.7)
+  - FirebaseUI/Auth (4.5.1):
+    - Firebase/Auth (~> 4.2)
+  - FirebaseUI/Phone (4.5.1):
+    - FirebaseUI/Auth
+  - GoogleToolboxForMac/DebugUtils (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.3)":
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.3)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.3)
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.3)"
+  - GTMSessionFetcher/Core (1.1.12)
+  - lottie-ios (2.1.5)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - ObjectMapper (3.3.0)
+  - ReachabilitySwift (4.1.0)
+  - ReactiveKit (3.8.2)
+  - SnapKit (4.0.0)
+  - StokkurUtls (0.1.1):
+    - SnapKit (= 4.0.0)
+  - SVProgressHUD (2.2.2)
+  - SwiftKeychainWrapper (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireObjectMapper (from `https://github.com/tristanhimmelman/AlamofireObjectMapper.git`, branch `swift-4`)
+  - Bond (= 6.5.2)
+  - Firebase/Auth
+  - Firebase/Core
+  - FirebaseUI/Phone
+  - lottie-ios
+  - ReachabilitySwift
+  - StokkurUtls (from `https://bitbucket.org/stokkur/stokkurutls.git`)
+  - SVProgressHUD (= 2.2.2)
+  - SwiftKeychainWrapper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Bond
+    - Differ
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseUI
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - lottie-ios
+    - nanopb
+    - ObjectMapper
+    - ReachabilitySwift
+    - ReactiveKit
+    - SnapKit
+    - SVProgressHUD
+    - SwiftKeychainWrapper
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :branch: swift-4
+    :git: https://github.com/tristanhimmelman/AlamofireObjectMapper.git
+  StokkurUtls:
+    :git: https://bitbucket.org/stokkur/stokkurutls.git
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :commit: 7a6359acfe4d732ccc152e441c610881b179d09c
+    :git: https://github.com/tristanhimmelman/AlamofireObjectMapper.git
+  StokkurUtls:
+    :commit: 0adaf2558ce44185181af21fd2c59e9bfc864c38
+    :git: https://bitbucket.org/stokkur/stokkurutls.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
+  Bond: 2b8c1070674fe8ba908ae11dc4e7607377d17bab
+  Differ: 0c220ac75542f5f17f91b1303b85bf07d871ecd7
+  Firebase: dbfb98ccec2dcfcd21ab9cc1b4981a3f3c8c5e26
+  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
+  FirebaseAuth: cdeee95b528958dbb7dcf220ad0fb804d3a284b0
+  FirebaseCore: 6cf108b63997bc08c04a1ffa55a3ac0d71a59ffc
+  FirebaseInstanceID: 148c25c986c8699e67304b114e365713dce467f2
+  FirebaseUI: 1dc9c8a87a776b488a28a28541f029e60c824cfd
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  lottie-ios: 836cdbba92f62f3c6a00e37a4ce485321fe317cf
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  ReactiveKit: d2fe54503e0b6d0fa48b2cc6e0b0f99869f13ee6
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  StokkurUtls: 184a9bb0fd9f811c49fd62d1d3d5632e97b505b6
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+
+PODFILE CHECKSUM: 1acaa3117c55a9c0a556a4f5b0a1a68cd2e4d572
+
+COCOAPODS: 1.10.1

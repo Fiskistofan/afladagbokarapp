@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HandAndLinaDetailControllerViewController" customModule="Afladagbokin" customModuleProvider="target">
+            <connections>
+                <outlet property="btnSave" destination="e97-QZ-mIg" id="p0j-Gu-M04"/>
+                <outlet property="cBtnBot" destination="IKW-ih-yBR" id="OOq-Vx-Ufb"/>
+                <outlet property="cBtnTop" destination="C8P-br-5DS" id="ozt-bN-X3F"/>
+                <outlet property="txtFieldViewBot" destination="8mk-PM-wd4" id="9IW-kh-ejd"/>
+                <outlet property="txtFieldViewTop" destination="sjn-Dh-cbW" id="nLU-NG-Sfc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewHeader" destination="9qO-VT-BcD" id="700-1h-UdM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qO-VT-BcD" customClass="Header" customModule="Afladagbokin" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="76" id="h4C-v7-bpd"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sjn-Dh-cbW" customClass="TextFieldView" customModule="Afladagbokin" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="76" width="375" height="160"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="8G1-ao-Dhr"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mk-PM-wd4" customClass="TextFieldView" customModule="Afladagbokin" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="236" width="375" height="160"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="SSE-bb-P97"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e97-QZ-mIg">
+                    <rect key="frame" x="27" y="576" width="321" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="sM2-A2-7OI"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="sjn-Dh-cbW" secondAttribute="trailing" id="0no-wO-ydd"/>
+                <constraint firstAttribute="trailing" secondItem="e97-QZ-mIg" secondAttribute="trailing" constant="27" id="3uM-xu-3Oa"/>
+                <constraint firstItem="8mk-PM-wd4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="C50-2j-GBH"/>
+                <constraint firstItem="e97-QZ-mIg" firstAttribute="top" secondItem="8mk-PM-wd4" secondAttribute="bottom" priority="250" constant="20" id="C8P-br-5DS"/>
+                <constraint firstItem="e97-QZ-mIg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="27" id="F08-yP-iAC"/>
+                <constraint firstAttribute="trailing" secondItem="8mk-PM-wd4" secondAttribute="trailing" id="Gzf-aF-HjN"/>
+                <constraint firstAttribute="bottom" secondItem="e97-QZ-mIg" secondAttribute="bottom" priority="750" constant="27" id="IKW-ih-yBR"/>
+                <constraint firstItem="9qO-VT-BcD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="RCu-EA-YZA"/>
+                <constraint firstItem="9qO-VT-BcD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aum-sK-rUt"/>
+                <constraint firstItem="8mk-PM-wd4" firstAttribute="top" secondItem="sjn-Dh-cbW" secondAttribute="bottom" id="kZC-Bv-8CN"/>
+                <constraint firstAttribute="trailing" secondItem="9qO-VT-BcD" secondAttribute="trailing" id="uuf-Br-z8W"/>
+                <constraint firstItem="sjn-Dh-cbW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vbS-WM-hmY"/>
+                <constraint firstItem="sjn-Dh-cbW" firstAttribute="top" secondItem="9qO-VT-BcD" secondAttribute="bottom" id="vcq-GR-aY4"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

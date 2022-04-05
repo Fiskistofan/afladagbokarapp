@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppClosingDialogViewController" customModule="Afladagbokin" customModuleProvider="target">
+            <connections>
+                <outlet property="linkTextFile" destination="prB-mT-WcZ" id="9AR-7z-SOV"/>
+                <outlet property="view" destination="iN0-l3-epB" id="zch-OE-BTO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J0f-Se-cEb">
+                    <rect key="frame" x="30" y="271.66666666666669" width="315" height="269.00000000000006"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hugbúnaður ekki virkur" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0C-9k-MEe">
+                            <rect key="frame" x="47.333333333333329" y="28" width="220.66666666666669" height="26.333333333333329"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" red="0.22745098039215686" green="0.36862745098039218" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hugbúnaður þessi er ekki lengur virkur." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ir4-iT-fHt">
+                            <rect key="frame" x="20" y="71.333333333333314" width="275" height="40.666666666666657"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.28235294117647058" green="0.28235294117647058" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GDV-ky-fWo">
+                            <rect key="frame" x="0.0" y="181" width="315" height="88"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="88" id="Ezm-2Q-PF0"/>
+                            </constraints>
+                            <color key="tintColor" red="0.59607843140000005" green="0.14901960780000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="LOKA">
+                                        <attributes>
+                                            <font key="NSFont" size="19" name="SFProDisplay-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="close:" destination="-1" eventType="touchUpInside" id="msb-UK-G2H"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prB-mT-WcZ">
+                            <rect key="frame" x="20" y="112.00000000000001" width="275" height="40.666666666666671"/>
+                            <gestureRecognizers/>
+                            <attributedString key="attributedText">
+                                <fragment content="Nánari upplýsingar eru á vefsíðu Fiskistofu">
+                                    <attributes>
+                                        <color key="NSColor" red="0.36078431372549019" green="0.58431372549019611" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system" size="17"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        <integer key="NSUnderline" value="1"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="prB-mT-WcZ" firstAttribute="leading" secondItem="J0f-Se-cEb" secondAttribute="leading" constant="20" id="1MW-CF-tDM"/>
+                        <constraint firstItem="prB-mT-WcZ" firstAttribute="top" secondItem="ir4-iT-fHt" secondAttribute="bottom" id="2GN-uE-x99"/>
+                        <constraint firstAttribute="trailing" secondItem="prB-mT-WcZ" secondAttribute="trailing" constant="20" id="2fc-bx-hpw"/>
+                        <constraint firstItem="ir4-iT-fHt" firstAttribute="leading" secondItem="J0f-Se-cEb" secondAttribute="leading" constant="20" id="5Os-so-SAD"/>
+                        <constraint firstItem="GDV-ky-fWo" firstAttribute="leading" secondItem="J0f-Se-cEb" secondAttribute="leading" id="AJ6-Tw-yhe"/>
+                        <constraint firstAttribute="trailing" secondItem="GDV-ky-fWo" secondAttribute="trailing" id="Ay8-oI-z16"/>
+                        <constraint firstAttribute="height" constant="269" id="JP8-z9-A25"/>
+                        <constraint firstItem="P0C-9k-MEe" firstAttribute="top" secondItem="J0f-Se-cEb" secondAttribute="top" constant="28" id="TfC-bf-KwP"/>
+                        <constraint firstItem="ir4-iT-fHt" firstAttribute="top" secondItem="P0C-9k-MEe" secondAttribute="bottom" constant="17" id="gDF-Ry-lKB"/>
+                        <constraint firstItem="P0C-9k-MEe" firstAttribute="centerX" secondItem="J0f-Se-cEb" secondAttribute="centerX" id="pia-Nj-44s"/>
+                        <constraint firstAttribute="trailing" secondItem="ir4-iT-fHt" secondAttribute="trailing" constant="20" id="rVG-8V-BGG"/>
+                        <constraint firstAttribute="bottom" secondItem="GDV-ky-fWo" secondAttribute="bottom" id="ycK-DD-uQR"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer. masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.44299472108179211" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="J0f-Se-cEb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="3t5-Jw-ugm"/>
+                <constraint firstItem="J0f-Se-cEb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="93B-gG-fIg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="J0f-Se-cEb" secondAttribute="trailing" constant="30" id="HJT-Hg-3dO"/>
+                <constraint firstItem="J0f-Se-cEb" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="kC5-WI-vjm"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="114"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

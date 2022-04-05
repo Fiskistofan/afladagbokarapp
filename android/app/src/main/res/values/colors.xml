@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources>
+    <color name="colorPrimary">#4175BE</color>
+    <color name="colorPrimaryDark">#174582</color>
+    <color name="colorAccent">#821744</color>
+
+    <!-- New colors -->
+    <color name="colorPrimaryNew">#33537F</color>
+    <color name="colorPrimaryDarkNew">#0E233F</color>
+    <color name="colorAccentNew">#98264C</color>
+    <color name="colorAccentNewOp90">#E598264C</color>
+    <color name="colorBorderGray">#979797</color>
+    <color name="colorBackgroundNew">#FBFBFB</color>
+    <color name="colorGreenButton">#87C93E</color>
+    <color name="colorGraySeparator">#E7E7E7</color>
+    <color name="colorGrayDisable">#959595</color>
+    <color name="colorGrayIcon">#959595</color>
+    <color name="colorActiveGreen">#87C93E</color>
+    <color name="colorWhiteGray">#F9F9F9</color>
+    <color name="colorSeparator">#33537F</color>
+    <color name="colorPrimaryLight">#4875B3</color>
+    <color name="colorBlackText">#484848</color>
+    <!-- New colors -->
+
+
+    <color name="color_primary_transparent">#E64175BE</color>
+    <color name="color_primary_dark_transparent">#E6174582</color>
+
+    <color name="dark_blue">#006aa4</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray_items">#A7A7A7</color>
+    <color name="gray_text">#929292</color>
+    <color name="dark_gray_text">#6E6E6E</color>
+    <color name="gray_background">#FBFBFB</color>
+    <color name="gray_border">#929292</color>
+    <color name="gray_item_background">#f5f5f5</color>
+    <color name="green">#32C349</color>
+    <color name="light_green">#B4EC51</color>
+    <color name="medium_green">#8AC848</color>
+    <color name="dark_green">#429321</color>
+    <color name="light_green_disabled">#33B4EC51</color>
+    <color name="medium_green_disabled">#338AC848</color>
+    <color name="dark_green_disabled">#43329321</color>
+    <color name="light_red">#BE4158</color>
+    <color name="dark_red">#821744</color>
+    <color name="medium_red">#BD4158</color>
+    <color name="back_red">#B83A40</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="header_blue">#0E233F</color>
+    <color name="header_dark">#223751</color>
+
+    <color name="extra_blue">#204873</color>
+    <color name="extra_blue_dark">#0E233F</color>
+    <color name="extra_blue_dark_transparent">#E60E233F</color>
+    <color name="blue_border_color">#4C7FBA</color>
+
+    <color name="ripple_red">#BE4158</color>
+    <color name="ripple_green">#BAFF6F</color>
+
+
+    <color name="blue_close_text">#3A5E8A</color>
+    <color name="blue_link">#5C95E4</color>
+    <color name="red_close">#98264C</color>
+
+</resources>
+

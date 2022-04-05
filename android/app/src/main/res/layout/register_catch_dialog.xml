@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/big_space"
+            android:layout_marginLeft="@dimen/big_space"
+            android:layout_marginRight="@dimen/big_space"
+            android:layout_marginTop="@dimen/dialog_top_margin"
+            android:background="@drawable/dialog_background"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dialog_custom_padding">
+
+            <TextView
+                style="@style/Afladagbok.Text.DarkBlue.VeryLargeText.Black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/register_catch_dialog_title" />
+
+            <TextView
+                style="@style/Afladagbok.Text.Gray.LargerText.Regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/big_space"
+                android:gravity="center"
+                android:text="@string/register_catch_description" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/net_image_size"
+            android:layout_height="@dimen/net_image_size"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:background="@drawable/blue_gradient_circle"
+            android:padding="@dimen/big_space"
+            android:src="@drawable/ic_start" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/big_space"
+        android:layout_marginRight="@dimen/big_space"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/register_catch_button"
+            style="@style/Afladagbok.Text.White.LargeText.Bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/small_space"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@drawable/green_save_button"
+            android:text="@string/yes" />
+
+        <Button
+            android:id="@+id/cancel_dialog_button"
+            style="@style/Afladagbok.Text.White.LargeText.Bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/small_space"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@drawable/red_button"
+            android:text="@string/no" />
+    </LinearLayout>
+</LinearLayout>

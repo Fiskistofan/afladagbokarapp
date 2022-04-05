@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources>
+
+    <string name="rationale_permissions_message">Til að geta notað appið þá þarftu að gefa Afladagbók leyfi til að nota staðsetningu þína.</string>
+    <string name="permissions_denied_message">Til að geta notað appið þá þarftu að leyfa Afladagbók að vita staðsetningu þína. Þú getur gert það með því að fara inn í Stillingar á símtæki þínu.</string>
+
+    <!--- Mapbox -->
+
+    <string name="mapbox_token" translatable="false">pk.eyJ1Ijoic3Rva2t1ciIsImEiOiJjamd4a3d3NmMyOGNoMndxamUybjZhbnVuIn0.GhQHTFevy_aoS9wZGlrh9w</string>
+    <string name="mapbox_style_url" translatable="false">mapbox://styles/stokkur/cjgxljiaf00322rnrol6ej83u</string>
+    <string name="offline_map_error">Ekki tókst að sækja landakort.</string>
+    <string name="offline_map_successful">Landakort sótt.</string>
+    <string name="offline_map_wait_message">Hleð niður landakorti, vinsamlegast bíðið. Getur tekið nokkrar mínútur&#8230;</string>
+
+    <!--- Mapbox -->
+
+    <!-- Dialog Toss Info -->
+
+    <string name="toss_count_label">Fjöldi %1$s:</string>
+    <string name="tossed_date_label">Veiðarfæri í sjó:</string>
+    <string name="toss_location_label">Hnit (GPS):</string>
+    <string name="toss_location">(lat) %1$.6f\n(lon) %2$.6f</string>
+    <string name="drag_toss">Draga veiðarfæri</string>
+
+    <!-- Dialog Toss Info -->
+
+    <!-- Navigation -->
+    <string name="statistics_nav">Tölfræði</string>
+    <string name="map_nav">Kort</string>
+    <string name="boat_nav">Bátar</string>
+    <string name="tour_nav">Veiði</string>
+    <string name="catch_nav">Afli</string>Skrá afla
+    <string name="more_nav">Meira</string>Ljúka veiðum
+    <string name="finish_tour_nav">Klára veiði</string>
+    <string name="start_tour_nav">Hefja\nveiðar</string>
+    <string name="stop_tour_nav">Ljúka\nveiðum</string>
+    <string name="statistics_title">Tölfræði</string>
+    <string name="boat_title">Bátar</string>
+    <string name="catch_title">Afladagbók</string>
+    <string name="tour_title">Veiðar</string>
+    <string name="more_title">Meira</string>
+    <string name="back">Til baka</string>
+    <string name="cancel">Hætta við</string>
+
+    <!-- Book -->
+    <string name="no_registry_message">Þú hefur ekki skráð afla í dag. \n\n\n Smelltu á plúsinn fyrir miðju skjás \ntil að skrá afla. </string>
+    <string name="register_catch">Skrá afla</string>
+    <string name="register_catch_title">Skráðu afla á net</string>
+    <string name="no_pull_message">Þú hefur ekki dregið inn neinn afla.</string>
+    <string name="register_estimated_catch">Skrá áætlaðan afla</string>
+    <string name="choose_species">Veldu tegund</string>
+    <string name="species_title">Veldu tegund</string>
+    <string name="register_species">Skrá %1$s</string>
+    <string name="weight_kg">Þyngd (kg)</string>
+    <string name="amount_stk">Fjöldi (stk)</string>
+    <string name="click_to_select_species_txt">Smelltu hér til að velja tegund</string>
+    <string name="insert_weight">Sláðu inn þyngd</string>
+    <string name="insert_amount">Sláðu inn fjölda</string>
+    <string name="change_button_text">Breyta</string>
+    <string name="choose_toss">Veldu veiðarfæri sem þú vilt draga</string>
+    <string name="pull_hour">Veiðarfæri - %1$d</string>
+    <string name="fish">Fiskur</string>
+    <string name="other_species">Aðrar tegundir</string>
+    <string name="extra_info_catch_yes">Undirmál: Já</string>
+    <string name="extra_info_catch_no">Undirmál: Nei</string>
+    <string name="extra_info_landed">Landað</string>
+    <string name="extra_info_released">Sleppt</string>
+    <string name="animal_catch_amount">%1$d stk</string>
+    <string name="fish_catch_kg">%1$.2f kg</string>
+    <string name="fish_small_catch">%1$s (undirmál)</string>
+    <string name="mammal_and_bird_catch_count">%1$d stk</string>
+    <string name="registered_time">Skráð kl: %1$s</string>
+    <string name="released">Sleppt</string>
+    <string name="kept">Landað</string>
+    <string name="yes">Já</string>
+    <string name="no">Nei</string>
+    <string name="save_registration">VISTA SKRÁNINGU</string>
+    <string name="landed_or_released">Landað eða sleppt?</string>
+    <string name="amount_toss">Fjöldi %1$s: %2$d</string>
+    <string name="amount_toss_out_of">Fjöldi %1$s: %2$d/%3$d</string>
+    <string name="pulled_in_amount_message">%1$d af %2$d %3$s, voru dregin. \n Það eru %4$d eftir í þessari trossu.</string>
+
+    <!-- More -->
+    <string name="about_app">Um appið</string>
+    <string name="log_out">Útskráning</string>
+    <string name="about_app_text">Appið er ætlað sjómönnum til aflaskráningar og skila til Fiskistofu.</string>
+    <string name="registered_user">Þú ert skráður inn sem</string>
+    <string name="is_catch_small_fish">Er aflinn undirmál?</string>
+    <string name="is_fish_gutted">Er aflinn slægður?</string>
+
+    <!-- Statistics -->
+    <string name="last_trip_statistics">Síðasta ferð</string>
+    <string name="past_statistics">Fyrri ferðir</string>
+    <string name="time_period_statistics">Tímabil</string>
+    <string name="search_time_period">SKOÐA TÍMABIL</string>
+    <string name="from_date_text">Frá dagsetningu</string>
+    <string name="to_date_text">Til dagsetningu</string>
+    <string name="kg_txt"><b>%1$.2f</b> kg</string>
+    <string name="no_statistics">Engin tölfræði til. \n\n\n Þegar aflaskráning hefur verið skilað inn byrjar tölfræðin að birtast hér.</string>
+
+    <!-- Login -->
+    <string name="login_name_title">Afladagbókin</string>
+<!--    <string name="login_description">Skráðu þig inn í appið með símanúmerinu\nþínu hér fyrir neðan. Útgerð þarf að hafa\nskráð þig sem skipstjóra á\ <u>Mínum síðum</u></string>-->
+    <string name="login_description">Skráðu þig inn í appið með símanúmerinu þínu hér fyrir neðan. Útgerð þarf að hafa skráð þig inn í <u>Mínar Síður</u>.</string>
+    <string name="enter_phone_hint">Sláðu inn símanúmer</string>
+    <string name="sms_code_description">Sláðu inn staðfestingarkóðann sem var sendur í númerið %1$s og smelltu á græna takkann til að skrá þig inn.\n\nEf þú fékkst ekki kóða getur þú beðið um nýtt SMS hér fyrir ofan.</string>
+<!--    <string name="sms_code_description">Síminn þinn mun slá inn staðfestingarkóðan sjálfkrafa og skrá þig inn. \n Ef þú færð SMS en ekkert gerist, sláðu þá inn staðfestingarkóðan sem var\nsendur í númerið <b>%1$s</b> og smelltu á græna takkann til að skrá þig inn.\n\nEf þú fékkst ekki kóða getur þú farið til \nbaka og reynt aftur.</string>-->
+    <string name="new_sms">Nýtt SMS</string>
+    <string name="sms_code_hint">SMS Staðfestingarkóði</string>
+
+    <!-- Start tour -->
+    <string name="hand_type">Handfæri</string>
+    <string name="line_type">Lína</string>
+    <string name="net_type">Net</string>
+
+    <string name="choose_boat">Veldu bát</string>
+    <string name="choose_equipment">Veldu veiðarfæri</string>
+    <string name="type_of_net">Eiginleikar</string>
+    <string name="type_of_line">Eiginleikar</string>
+    <string name="type_of_hand">Eiginleikar</string>
+
+    <string name="type_of_net_title">Hrognkelsanet?</string>
+    <string name="number_of_nets">Fjöldi neta</string>
+    <string name="height_of_net_holes">Hæð nets</string>
+    <string name="number_of_net_holes">Stærð möskva</string>
+    <string name="number_of_net_holes_symbol">möskvar</string>
+    <string name="millimeters_si_symbol">mm</string>
+
+    <string name="final_step">Lokaskref</string>
+    <string name="next_step_button">NÆSTA SKREF</string>
+    <string name="choose_bay_txt">Veldu löndunarhöfn</string>
+    <string name="selected_port">Valin löndunarhöfn: %1$s</string>
+    <string name="inspector_aboard">Er eftirlitsmaður um borð?</string>
+    <string name="lay_out_equipment">LEGGJA \n VEIÐARFÆRI</string>
+    <string name="pull_in_equipment">DRAGA \n VEIÐARFÆRI</string>
+    <string name="start_tour_button">BYRJA VEIÐI</string>
+    <string name="hooks">önglar</string>
+    <string name="bjodur">bjóð</string>
+    <string name="hooks_title">Fjöldi öngla</string>
+    <string name="bjodur_title">Fjöldi bjóða</string>
+
+    <string name="net">net</string>
+    <string name="hand">handfæri</string>
+    <string name="line">lína</string>
+
+    <string name="toss_how_many_net">Hversu mörg net?</string>
+    <string name="pull_how_many_net">Hversu mörg net dregin?</string>
+    <string name="toss_how_many_hand">Hversu mörg handfæri?</string>
+    <string name="pull_how_many_hand">Hversu mörg handfæri dregin?</string>
+    <string name="toss_how_many_line">Hversu margar línur?</string>
+    <string name="pull_how_many_line">Hversu margar línur dregnar?</string>
+
+    <!-- Stop tour -->
+    <string name="stop_tour_title">Ljúka veiðum</string>
+    <string name="stop_tour_dialog_text">Vilt þú ljúka veiðum og skila inn \n aflaskráningu? \n \n Það er ekki hægt að breyta skráningu eftir að þú hefur skilað inn áætluðum afla. </string>
+    <string name="stop_tour_button">LJÚKA VEIÐUM</string>
+    <string name="cancel_button">HÆTTA VIÐ</string>
+    <string name="harbor_txt">Löndunarhöfn</string>
+    <string name="date_txt">Dagsetning</string>
+    <string name="total_catch_txt">Heildarafli</string>
+    <string name="total_species_txt">Fj. tegunda</string>
+    <string name="total_registrations">Aflaskráningar</string>
+    <string name="not_valid_phone_dialog">Þetta símanúmer er ekki skráð á skipstjóra. Vinsamlegast hafði samband við útgerðina þína.</string>
+    <string name="ok_dialog_button">Allt í lagi</string>
+    <string name="kennitala">kt: %1$s</string>
+    <string name="hand_title">Fjöldi færa</string>
+    <string name="total_small_fish">Heildarundirmál</string>
+    <string name="of_amount">&#160;af %1$d</string>
+    <string name="close">Loka</string>
+
+    <!-- Register catch dialog -->
+    <string name="register_catch_dialog_title">Aflaskráning</string>
+    <string name="register_catch_description">Viltu skrá afla núna?</string>
+
+    <!-- Error handling -->
+    <string name="general_error">Eitthvað mistókst.</string>
+    <string name="insert_amount_error">Vinsamlegast sláðu inn fjölda.</string>
+    <string name="insert_weight_error">Vinsamlegast sláðu inn þyngd.</string>
+    <string name="all_equipment_pulled_error">Öll veiðarfæri hafa verið dregin úr þessari lögn.</string>
+    <string name="no_internet_error">Þú ert ekki í netsambandi. Vinsamlegast reyndu aftur þegar tækið kemst í netsamband.</string>
+    <string name="no_equipment_error">Engin veiðarfæri hafa verið lögð. Vinsamlegast leggðu veiðarfæri fyrst.</string>
+    <string name="tour_confirmed">Veiðiferð hefur verið skilað.</string>
+    <string name="catch_not_sent_to_backend_error">Tókst ekki að senda aflaskráningu. Vinsamlegast reyndu aftur innan skamms.</string>
+    <string name="cannot_pull_in_more_error">Þú getur ekki dregið inn fleiri en %1$d veiðarfæri.</string>
+    <string name="insert_valid_phone_number_error">Símanúmer fannst ekki</string>
+    <string name="too_many_requests">Of margar tilraunir til innskráningar, vinsamlegast reynið aftur síðar!</string>
+    <string name="insert_valid_sms_error">Vinsamlegst sláðu inn gildan SMS kóða.</string>
+    <string name="login_general_error">Eitthvað fór úrskeiðis við innskráningu.</string>
+    <string name="finish_tour_before_logout_error">Vinsamlegast endaðu túrinn áður en þú skráir þig út.</string>
+
+    <string name="login_no_ships">Notandi er ekki skráður á skip. Vinsamlegast hafðu samband við útgerð.</string>
+    <string name="login_no_default_equipment">Engin veiðarfæri eru skráð á Skip skipstjóra. Vinsamlegast hafðu samband við útgerð.</string>
+    <string name="login_no_ports">Tókst ekki að sækja upplýsingar um hafnir</string>
+    <string name="login_no_fish_species">Tókst ekki að sækja gögn</string>
+    <string name="login_no_other_species">Tókst ekki að sækja gögn</string>
+    <string name="login_no_fishing_equipment">Notandi hefur engin skráð veiðarfæri</string>
+
+    <string name="confirm_logout_title">Útskráning</string>
+    <string name="confirm_logout_message">Ertu viss um að þú viljir skrá þig út?</string>
+    <string name="confirm_logout">Skrá út</string>
+
+    <string name="select_catches">Velja afla</string>
+    <string name="continue_with_multi">Áfram (%1$d net valin)</string>
+
+    <string name="pull_amount_of_type">Draga %1$d %2$s?</string>
+
+    <string name="pull_nothing_registered">Enginn afli skráður</string>
+    <string name="pull_amount_date_registered">%1$.2f Kg. - síðast skráð %2$s</string>
+
+    <string name="total_weight_caught"><![CDATA[Heildar afli:<br /><b>%1$.2f</b> kg.]]></string>
+
+    <string name="equipment_preferred">Skráð á þennan bát</string>
+
+    <string name="privacy_policy"><u>Persónuverndarskilmálar</u></string>
+    <string name="privacy_policy_url">https://aflaskraning.is/privacy-policy</string>
+    <string name="privacy_policy_failed_to_open">Gat ekki opnað vefsíðu</string>
+
+    <string name="read_more">LESA MEIRA</string>
+    <string name="accept">SAMÞYKKJA</string>
+    <string name="dialog_terms_title">Persónuskilmálar</string>
+    <string name="dialog_terms_description">Fiskistofa hefur tekið í notkun nýja skilmála sem innihalda upplýsingar um persónuverndarstefnu Fiskistofu. Í stefnunni getur þú kynnt þér hvaða persónuupplýsingum Fiskistofa er að safna, í hvaða tilgangi og hvaða rétt þú hefur varðandi aðgang og leiðréttingar á persónuupplýsingum um þig. Kynntu þér málið!</string>
+
+    <!-- New Strings Section -->
+    <string name="fishing_tour_info">Þú þarft að  hefja veiðar og draga\nveiðarfæri til að skrá aflann.</string>
+    <string name="new_start_tour_nav">Hefja veiðar</string>
+    <string name="new_stop_tour_nav">Ljúka veiðum</string>
+    <string name="new_start_nav">Veiðar</string>
+    <string name="new_catch_nav">Skrá afla</string>
+    <string name="new_stop_nav">Ljúka veiðum</string>
+    <string name="action_inactive_start">Hefja veiðar</string>
+    <string name="action_active_start">Leggja veiðarfæri</string>
+    <string name="action_inactive_record">Skrá afla</string>
+    <string name="action_active_record">Leggja veiðarfæri</string>
+    <string name="action_stop">Ljúka veiðum og skila inn</string>
+    <string name="action_inactive_info_record">Þú þarft að  hefja veiðar og draga veiðarfæri til að skrá aflann.</string>
+    <string name="action_inactive_info_stop">Þú þarft að  hefja veiðar og skrá afla til að ljúka veiðum.</string>
+    <string name="menu_log_out">Útskrá</string>
+    <string name="back_btn">Bakka</string>
+
+    <!-- New Tour Screen -->
+    <string name="tour_toss_add">Smelltu á leggja veiðarfæri hér fyrir neðan til þess að geta skráð afla</string>
+    <string name="tour_toss_active_title">Veiðarfæri - %1$d</string>
+    <string name="tour_toss_active_count_info">Fjöldi neta: %1$d/%2$d</string>
+    <string name="tour_toss_active_date_info">- %1$s</string>
+    
+    <!-- New Catch Record -->
+    <string name="select_all_pulls">Velja allt</string>
+    <string name="clear_all_pulls">Hreinsa val</string>
+    <string name="pull_info">Net dregin: %1$s</string>
+    <string name="no_pulls_registered">Enginn afli skráður</string>
+    <string name="pulls_registered">Afli skráður</string>
+    <string name="other_species_new">Fuglar og spendýr</string>
+    <string name="species_title_new">Veldu fisktegund</string>
+    <string name="is_fish_gutted_new">Slægður?</string>
+    <string name="is_gutted_positive">Slægður</string>
+    <string name="is_gutted_negative">Óslægður</string>
+    <string name="register_catch_weight_ok">OK</string>
+    <string name="register_catch_continue">Skrá Gullkarfa</string>
+
+    <!-- New Pull Toss -->
+    <string name="toss_info_lat">(lat) %1$d</string>
+    <string name="toss_info_lon">(lon) %1$d</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_content_1"><b>Hefja veiðar</b>\nÞú byrjar að velja hefja veiðar áður en þú leggur veiðarfæri</string>
+    <string name="onboarding_content_2"><b>Leggja veiðarfæri</b>\nEftir veiðar eru hafnar þá leggur þú veiðarfærin</string>
+    <string name="onboarding_content_3"><b>Draga veiðarfæri</b>\nÞú velur viðkomandi veiðarfæri og síðan þau net sem þú ætlar draga</string>
+    <string name="onboarding_content_4"><b>Skráir afla</b>\nÞú nálgast skráningu  afla með því að velja “Skrá afla” í valstiku</string>
+    <string name="onboarding_content_5"><b>Ljúka veiðum</b>\nÞú velur að ljúka veiðum og skila inn þegar þú hefur dregið öll veiðarfæri og skráð afla</string>
+
+
+    <!-- No Catch Registered -->
+    <string name="statistics_active_tour">Þú hefur ekki skráð afla í dag\n\nSmelltu  á takkann hér fyrir neðan til að skrá afla</string>
+
+    <!-- EOF dialog -->
+    <string name="eof_header">Hugbúnaður ekki virkur</string>
+    <string name="eof_content">Hugbúnaður þessi er ekki lengur virkur.</string>
+    <string name="eof_link"><u>Nánari upplýsingar eru á vefsíðu Fiskistofu</u></string>
+    <string name="eof_link_to_fis">https://fiskistofa.is/</string>
+
+</resources>

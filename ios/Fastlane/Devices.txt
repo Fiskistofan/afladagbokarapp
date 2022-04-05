@@ -1,0 +1,10 @@
+Device ID	Device Name
+282e2759f7c4c35ac4e0d371c5bfa6aa5724868f	Stokkur-QA iPhone 6 plus
+acd0663689b9dbea1c78a02a1505c3d9c95e1028	Stokkur-QA iPhone 6
+b4054cd79f9586c0d75ec1448a8ff01f9c702447	Stokkur-QA iPhone 5
+0d6913e81f39cc3b41fca3a0dd82f53cb3675acd	Stokkur-QA iPhone 5
+6c7f9bbe92ccc07e6d2ed41f873302928445c73e	Stokkur-QA iPhone 6+ White
+9af5a2925128f4d34b08e3f84825a5fa03e6c361	Stokkur-QA iPhone 6s
+5a0d2c0cd0767614e727dca727da19f24cbff22c	Stokkur-QA iPhone 7+
+3171b3a79e87be58febeb4b214cdbda7ccc65910	Stokkur-RQ iPhone 7
+69627f082fd94e2db6cde69184e5a8fb9670b537	Fiskistofa-Anna Sigga iPhone 8+

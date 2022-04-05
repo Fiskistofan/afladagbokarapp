@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorPrimaryDarkNew"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_map"
+        android:scaleType="centerCrop" />
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/layout_header"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/menu_background"
+        android:background="@color/color_primary_dark_transparent"
+        android:elevation="15dp"
+        android:visibility="gone"
+        android:onClick="onMenuClick"
+        android:clickable="false"
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:elevation="18dp"
+        android:id="@+id/menu"
+        android:visibility="gone">
+<!--        android:background="@color/color_primary_dark_transparent"-->
+<!--        >-->
+        <include
+
+            layout="@layout/layout_menu"
+            android:elevation="20dp" />
+    </RelativeLayout>
+
+
+    <!-- Height of the bottom navigation view is 56dp (until it is changed in some version) -->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        app:itemBackground="@drawable/new_bottom_navigation_item"
+        app:itemHorizontalTranslationEnabled="true"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/tab_item_icon"
+        app:itemTextColor="@color/tab_item_text"
+        app:labelVisibilityMode="labeled"
+        android:elevation="1dp"
+        app:menu="@menu/navigation" />
+
+    <Button
+        android:elevation="1dp"
+        android:id="@+id/action_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@id/navigation"
+        android:background="@drawable/action_btn_background"
+        android:text="Hefja veiðar"
+        android:textColor="@color/white"
+        android:textSize="19sp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/action_button"
+        android:layout_below="@+id/header"
+        android:background="@color/transparent">
+
+        <RelativeLayout
+            android:id="@+id/active_tour_localization_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/active_tour_background"
+            android:layout_centerHorizontal="true"
+            >
+
+            <is.stokkur.afladagbok.android.widget.RippleRelativeLayout
+                android:id="@+id/localizationStatusRippleView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="13dp"
+                app:rippleColor="@color/ripple_red"
+                app:rippleDuration="@integer/anim_duration_long_long"
+                app:rippleRadius="8dp"
+                app:ripplesAmount="2"
+                app:rippleScale="2"
+                app:rippleStrokeWidth="6dp"
+                app:rippleStyle="stroke"
+                >
+                <ImageView
+                    android:id="@+id/locationCircleView"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/red_circle_shape"/>
+            </is.stokkur.afladagbok.android.widget.RippleRelativeLayout>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="Staðsetning"
+                 android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="21dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginBottom="9dp"
+                android:layout_marginStart="3dp"
+                android:layout_toRightOf="@+id/localizationStatusRippleView"
+                />
+
+        </RelativeLayout>
+        <FrameLayout
+            android:id="@+id/base_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/active_tour_localization_status"
+            android:background="@color/transparent"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/equipment_selection_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drop_down_blue_gradient"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/toss_out_button"
+            style="@style/Afladagbok.Text.White.LargeText.Bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/big_space"
+            android:layout_marginLeft="@dimen/huge_space"
+            android:layout_marginRight="@dimen/regular_space"
+            android:layout_marginTop="@dimen/big_space"
+            android:layout_weight="1"
+            android:background="@drawable/green_save_button"
+            android:padding="@dimen/regular_space"
+            android:text="@string/lay_out_equipment" />
+
+        <Button
+            android:id="@+id/pull_equipment_button"
+            style="@style/Afladagbok.Text.White.LargeText.Bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/big_space"
+            android:layout_marginLeft="@dimen/regular_space"
+            android:layout_marginRight="@dimen/huge_space"
+            android:layout_marginTop="@dimen/big_space"
+            android:layout_weight="1"
+            android:background="@drawable/red_button"
+            android:padding="@dimen/regular_space"
+            android:text="@string/pull_in_equipment" />
+    </LinearLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/tour_action_button"
+        android:layout_width="@dimen/design_bottom_navigation_height"
+        android:layout_height="@dimen/design_bottom_tour_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/green_start_button"
+        android:clickable="true"
+        android:elevation="40dp"
+        android:src="@drawable/green_start_button"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/tour_action_button_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tour_text"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_start" />
+
+        <TextView
+            android:id="@+id/tour_text"
+            style="@style/Afladagbok.Text.White.LargeText.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/regular_small_space"
+            android:layout_marginTop="@dimen/small_space"
+            android:gravity="center"
+            android:text="@string/start_tour_nav"
+            android:textAlignment="gravity" />
+    </RelativeLayout>-->
+
+    <is.stokkur.afladagbok.android.utils.MessageView
+        android:id="@+id/message_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

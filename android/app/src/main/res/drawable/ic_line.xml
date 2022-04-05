@@ -1,0 +1,36 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector android:height="50dp"
+    android:viewportHeight="64.0"
+    android:viewportWidth="24.0"
+    android:width="19dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="#C7CAC7"
+        android:fillType="nonZero"
+        android:pathData="M19.147,64C16.471,64 14.294,61.889 14.294,59.294L14.294,52.392C14.294,50.477 13.528,49.255 13,49.255L13,48C14.476,48 15.588,49.888 15.588,52.392L15.588,59.294C15.588,61.197 17.185,62.745 19.147,62.745C21.109,62.745 22.706,61.197 22.706,59.294L22.706,58.98L20.765,58.98L24,57.024L24,58.039L24,59.294C24,61.889 21.823,64 19.147,64Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#C7CAC7"
+        android:fillType="nonZero"
+        android:pathData="M4.853,25C7.529,25 9.706,22.889 9.706,20.294L9.706,13.392C9.706,11.477 10.472,10.255 11,10.255L11,9C9.524,9 8.412,10.888 8.412,13.392L8.412,20.294C8.412,22.197 6.815,23.745 4.853,23.745C2.891,23.745 1.294,22.197 1.294,20.294L1.294,19.98L3.235,19.98L0,18.024L0,19.039L0,20.294C0,22.889 2.177,25 4.853,25Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#33537F"
+        android:fillType="evenOdd"
+        android:pathData="M11,0h2v60h-2z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+</vector>

@@ -1,0 +1,36 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="117dp"
+    android:height="121dp"
+    android:viewportHeight="121.0"
+    android:viewportWidth="117.0">
+    <path
+        android:fillColor="#A7A7A7"
+        android:fillType="nonZero"
+        android:pathData="M114.59,116.18L109.29,116.18L109.29,39.48C109.29,35.9 106.38,33 102.81,33L90.97,33C87.4,33 84.49,35.9 84.49,39.48L84.49,116.18L71.05,116.18L71.05,74.23C71.05,70.66 68.14,67.75 64.56,67.75L52.73,67.75C49.15,67.75 46.24,70.66 46.24,74.23L46.24,116.18L32.8,116.18L32.8,94.46C32.8,90.89 29.89,87.98 26.31,87.98L14.48,87.98C10.9,87.98 7.99,90.89 7.99,94.46L7.99,116.18L2.41,116.18C1.08,116.18 0,117.26 0,118.59C0,119.92 1.08,121 2.41,121L114.59,121C115.92,121 117,119.92 117,118.59C117,117.26 115.92,116.18 114.59,116.18ZM27.97,116.18L12.82,116.18L12.82,94.46C12.82,93.54 13.56,92.8 14.48,92.8L26.31,92.8C27.23,92.8 27.97,93.54 27.97,94.46L27.97,116.18ZM66.22,116.18L51.07,116.18L51.07,74.23C51.07,73.32 51.81,72.57 52.73,72.57L64.56,72.57C65.47,72.57 66.22,73.32 66.22,74.23L66.22,116.18ZM104.47,116.18L89.31,116.18L89.31,39.48C89.31,38.56 90.06,37.82 90.97,37.82L102.81,37.82C103.72,37.82 104.47,38.56 104.47,39.48L104.47,116.18Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#33537F"
+        android:fillType="nonZero"
+        android:pathData="M108.99,2.53C109.03,1.87 108.8,1.21 108.3,0.7C107.8,0.2 107.13,-0.03 106.48,0.01C106.44,0 106.4,0 106.36,0L91.86,0C90.54,0 89.46,1.08 89.46,2.41C89.46,3.74 90.54,4.81 91.86,4.81L100.82,4.81L77.12,28.6L68.18,19.63C67.73,19.18 67.12,18.93 66.49,18.93C65.85,18.93 65.24,19.18 64.79,19.63L21.7,62.89C20.77,63.83 20.77,65.36 21.7,66.3C22.17,66.77 22.78,67 23.4,67C24.01,67 24.62,66.77 25.09,66.3L66.49,24.74L75.42,33.71C76.36,34.65 77.88,34.65 78.81,33.71L104.21,8.22L104.21,16.35C104.21,17.68 105.28,18.76 106.6,18.76C107.93,18.76 109,17.68 109,16.35L109,2.65C109,2.61 109,2.57 108.99,2.53Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M15,73m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1" />
+</vector>

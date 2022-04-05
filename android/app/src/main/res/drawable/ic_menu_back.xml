@@ -1,0 +1,22 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2022 Stokkur Software ehf.
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:pathData="M5.3685,12.0047L13.6467,3.7741C13.8746,3.5481 14,3.2458 14,2.9235C14,2.601 13.8746,2.2989 13.6467,2.0725L12.9213,1.3516C12.6937,1.1249 12.3895,1 12.0653,1C11.7411,1 11.4372,1.1249 11.2095,1.3516L1.353,11.1508C1.1243,11.3779 0.9991,11.6814 1,12.0041C0.9991,12.3282 1.1241,12.6314 1.353,12.8587L11.2003,22.6484C11.4281,22.8752 11.7319,23 12.0563,23C12.3805,23 12.6843,22.8752 12.9123,22.6484L13.6375,21.9275C14.1094,21.4584 14.1094,20.6947 13.6375,20.2257L5.3685,12.0047Z"
+      android:fillColor="#5C95E4"
+      android:fillType="evenOdd"/>
+</vector>

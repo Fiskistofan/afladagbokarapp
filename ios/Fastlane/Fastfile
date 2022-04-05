@@ -1,0 +1,80 @@
+update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  #
+  # Learn more here: https://github.com/fastlane/setups/blob/master/samples-ios/distribute-beta-build.md 🚀
+  #
+  lane :beta do |values|
+
+    puts values[:build_number]
+    increment_build_number build_number: values[:build_number]
+
+    # Fetch the list of Devices + registering as needed
+    register_devices(
+      devices_file: "fastlane/Devices.txt",
+    )
+    refresh_profiles type:"adhoc"
+
+    # Create and/or fetch the correct and updated provisioning profile
+    match(
+      type: "adhoc",
+      git_url: "git@bitbucket.org:stokkur/certificates.git",
+    )
+
+    gym(
+      scheme: 'Afladagbokin_test', 
+      export_method: 'ad-hoc'
+    )
+
+    emails = values[:test_email] ? values[:test_email] : ['qa@stokkur.is'] # You can list more emails here
+    groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
+
+    
+  end
+
+
+
+
+
+    lane :prod do |values|
+
+      puts values[:build_number]
+      increment_build_number build_number: values[:build_number]
+      
+      match(
+        type: "appstore",
+        git_url: "git@bitbucket.org:stokkur/certificates.git",
+        app_identifier: "is.stokkur.Afladagbokin"
+      )
+
+      gym(
+        scheme: "Afladagbokin_prod",
+        export_method: 'app-store',
+        include_bitcode: false
+      )
+      
+      appstore(
+        username: "build@stokkur.is",
+        #team_id: "9WXNG682Q7",
+        team_name: "Stokkur",
+        skip_screenshots: true,
+        skip_metadata: true,
+        force: true
+      )
+    end
+
+
+
+
+    # A helper lane for refreshing provisioning profiles.
+    lane :refresh_profiles do |values|
+      match(
+        type: values[:type],
+        git_url: "git@bitbucket.org:stokkur/certificates.git",
+        force: true
+    )
+    end
+    
+  end
